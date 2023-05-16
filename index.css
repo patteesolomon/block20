@@ -1,9 +1,9 @@
 html
 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: linear-gradient(120deg, rgb(0, 44, 139) 0%, #4decec 74%);
+    background-image: linear-gradient(120deg, rgb(0, 44, 139) 0%, #4decec75 74%);
     box-shadow: 100px, rgb(237, 255, 255);
-    color: rgb(186, 224, 255);
+    color: rgb(221, 239, 253);
         text-shadow:
             0 0 7px #fff,
             0 0 10px #fff,
@@ -17,7 +17,7 @@ html
 
 #root
 {
-    background-image: linear-gradient(30deg, rgb(29, 115, 254) 0%, rgb(199, 238, 255) 72%);
+    background-image: linear-gradient(30deg, rgba(29, 115, 254, 0.586) 0%, rgba(199, 238, 255, 0.727) 72%);
     background-blend-mode: color;
     border-color: #ffd66e;
     border-style: dotted;
@@ -30,5 +30,5 @@ ul
     border-color: #21d4b0;
     border-style: double;
     border-image: stretch;
-    background-image: linear-gradient(30deg, rgb(0, 107, 139) 13%, #8cffe6 74%);
+    background-image: linear-gradient(30deg, rgb(0, 107, 139) 13%, #8cffe69a 74%);
 }
